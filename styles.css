@@ -162,7 +162,8 @@ button {
     max-width: 1200px;
     /* ERROR 3: El contenido no está centrado en la página
        PISTA: Falta una propiedad que centra elementos de bloque horizontalmente */
-    padding: 0 var(--spacing-lg);
+       margin: 0 auto;
+       padding: 0 var(--spacing-lg);
 }
 
 .section {
@@ -216,6 +217,7 @@ button {
        Esto hace que el hover y otros estados se animen suavemente */
     cursor: pointer;
     white-space: nowrap;
+    transition: all var(--transition-base);
 }
 
 .btn--primary {
