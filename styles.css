@@ -237,6 +237,7 @@ button {
     background: transparent;
     color: var(--color-text-primary);
     border: 2px solid var(--color-bg-tertiary);
+    box-shadow: var(--shadow-lg);
 }
 
 .btn--outline:hover {
@@ -285,6 +286,7 @@ button {
        PISTA: Falta una propiedad de flexbox que alinea items en el eje transversal */
     justify-content: space-between;
     height: 100%;
+    align-items: center;
 }
 
 .nav__logo {
